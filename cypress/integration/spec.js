@@ -6,7 +6,7 @@ context('Home', () => {
   })
 
 
-  it('Nabigation item count', () => {
+  it('Navigation item count', () => {
     cy.get('body').find('.headerMain-navMainLink')
       .should(($p) => {
         expect($p).to.have.length(6)
